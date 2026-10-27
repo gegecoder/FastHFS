@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=FastHFS
+Comment=HTTP 文件服务
+# The Exec line includes %u to pass the URL to the application
+Exec=/usr/local/bin/fasthfs %u
+Terminal=false
+Type=Application
+Icon=fasthfs
+Categories=Utility;
+StartupWMClass=fasthfs
+
+ 

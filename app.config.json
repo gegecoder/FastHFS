@@ -1,0 +1,21 @@
+{
+  "name": "FastHFS",
+  "binaryName": "fasthfs",
+  "description": "HTTP 文件服务",
+  "version": "1.0.0",
+  "companyName": "心歌",
+  "productIdentifier": "com.fasthfs.app",
+  "fileDescription": "HTTP 文件服务",
+  "copyright": "(c) 2026, 心歌",
+  "homepage": "https://gitcode.com/qq_23994787/FastHFS",
+  "comments": "HTTP 文件服务",
+  "author": {
+    "name": "心歌",
+    "email": "eclipse8@qq.com",
+    "blog": "https://kevin.blog.csdn.net"
+  },
+  "update": {
+    "apiUrl": "https://api.gitcode.com/api/v5/repos/qq_23994787/FastHFS/releases/latest",
+    "releasePageBase": "https://gitcode.com/qq_23994787/FastHFS/releases/"
+  }
+}

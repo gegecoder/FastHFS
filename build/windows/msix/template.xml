@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MsixPackagingToolTemplate
+    xmlns="http://schemas.microsoft.com/msix/packaging/msixpackagingtool/template/2022">
+    <Settings
+        AllowTelemetry="false"
+        ApplyACLsToPackageFiles="true"
+        GenerateCommandLineFile="true"
+        AllowPromptForPassword="false">
+    </Settings>
+    <Installer
+        Path="fasthfs.exe"
+        Arguments=""
+        InstallLocation="C:\Program Files\FastHFS\FastHFS">
+    </Installer>
+    <PackageInformation
+        PackageName="FastHFS"
+        PackageDisplayName="FastHFS"
+        PublisherName="CN=FastHFS"
+        PublisherDisplayName="FastHFS"
+        Version="1.0.0.0"
+        PackageDescription="LAN HTTP file service">
+        <Capabilities>
+            <Capability Name="runFullTrust" />
+            
+        </Capabilities>
+        <Applications>
+            <Application
+                Id="com.fasthfs.app"
+                Description="LAN HTTP file service"
+                DisplayName="FastHFS"
+                ExecutableName="fasthfs.exe"
+                EntryPoint="Windows.FullTrustApplication">
+                
+            </Application>
+        </Applications>
+        <Resources>
+            <Resource Language="en-us" />
+        </Resources>
+        <Dependencies>
+            <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+        </Dependencies>
+        <Properties>
+            <Framework>false</Framework>
+            <DisplayName>FastHFS</DisplayName>
+            <PublisherDisplayName>FastHFS</PublisherDisplayName>
+            <Description>LAN HTTP file service</Description>
+            <Logo>Assets\AppIcon.png</Logo>
+        </Properties>
+    </PackageInformation>
+    <SaveLocation PackagePath="fasthfs.msix" />
+    <PackageIntegrity>
+        <CertificatePath></CertificatePath>
+    </PackageIntegrity>
+</MsixPackagingToolTemplate>

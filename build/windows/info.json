@@ -1,0 +1,15 @@
+{
+	"fixed": {
+		"file_version": "1.0.0"
+	},
+	"info": {
+		"0409": {
+			"ProductVersion": "1.0.0",
+			"CompanyName": "心歌",
+			"FileDescription": "HTTP 文件服务",
+			"LegalCopyright": "(c) 2026, 心歌",
+			"ProductName": "FastHFS",
+			"Comments": "HTTP 文件服务"
+		}
+	}
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=${name}
+Comment=${description}
+Exec=${binaryName}
+Icon=${binaryName}
+Categories=Network;
+Terminal=false
+Keywords=file;http;server;share;
+Version=1.0
+StartupNotify=false
+StartupWMClass=${productIdentifier}

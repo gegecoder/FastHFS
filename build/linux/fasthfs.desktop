@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=FastHFS
+Comment=HTTP 文件服务
+Exec=fasthfs
+Icon=fasthfs
+Categories=Network;
+Terminal=false
+Keywords=file;http;server;share;
+Version=1.0
+StartupNotify=false
+StartupWMClass=com.fasthfs.app

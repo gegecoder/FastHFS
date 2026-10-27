@@ -1,0 +1,16 @@
+.task
+# 各平台构建与打包产物：build/<platform>/build、build/<platform>/temp 与汇总目录
+build/bin/
+build/*/temp/
+build/*/build/
+frontend/dist/*
+!frontend/dist/.gitkeep
+frontend/node_modules
+webshare/node_modules
+backend/fileserver/www/dist/*
+!backend/fileserver/www/dist/.gitkeep
+*.syso
+build/linux/appimage/build
+# Linux hicolor 图标由 scripts/gen-linux-icons.go 生成
+build/linux/icons/
+build/windows/nsis/MicrosoftEdgeWebview2Setup.exe
